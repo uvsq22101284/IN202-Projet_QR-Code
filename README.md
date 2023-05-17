@@ -29,3 +29,6 @@ Le pixel à la position (24, 8) code le type de données. S’il est à 0 il s�
 Enfin, on peut appliquer un filtre à notre QR Code, qui modifie certains bits du QR Code. Celui-ci est stocké sur deux bits de contrôle dans les pixels (22, 8) et (23, 8). Quatre filtres différents peuvent être appliqué : un tout noir (qui ne change rien), un damier, des lignes horizontales ou bien des lignes verticales.
 
 
+# Interface graphique
+
+La fenêtre Tkinter est constituée des boutons "charger" (qui permet d'importer un QR Code dans l'interface), "scanner" (qui permet de lire le QR Code) et "quitter". Quand un QR Code est lu, des informations sont renvoyées comme le message décodé, le filtre appliqué, le nombre de blocs lus et le type de données.
